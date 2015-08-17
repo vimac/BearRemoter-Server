@@ -1,3 +1,9 @@
-BearRemoter的服务器端
+BearRemoter(https://github.com/vimac/BearRemoter) 的服务器端
 
 目前也非常简单，只调用了极光推送
+
+安装运行（假设已经安装好composer）：
+
+1. composer install
+2. 修改config.php将极光推送账号填入
+3. done
