@@ -16,7 +16,7 @@ $message = isset($_REQUEST['message']) ? $_REQUEST['message'] : "召唤";
 if (empty($targetCellPhone) or empty($fromCellPhone)) {
     die("nothing else comes so close");
 }
-$target = 'dev_' . $targetCellPhone;
+$target = $prefix . $targetCellPhone;
 
 $br = '<br/>';
 $spilt = ' - ';
